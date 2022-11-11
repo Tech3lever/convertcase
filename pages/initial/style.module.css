@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+.main {
+    margin: 2rem 10rem;
+}
+
+.formgroup {
+    width: 60vw;
+}
+
+.buttons button {
+    margin: 0.33rem 0.2rem;
+}
+
+.result {
+    padding: 1rem 0;
+    margin-bottom: 0.32rem;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.664);
+}
+
+.disclaimer {
+    position: relative;
+}
+
+@media (max-width:768px) {
+
+    .nav {
+        margin: 2rem 2rem;
+    }
+
+
+    .main {
+        margin: 1rem 2rem;
+    }
+}
+
+
+@media (max-width:425px) {
+    .main .form-control {
+        width: 80vw;
+    }
+}

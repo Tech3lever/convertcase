@@ -11,13 +11,13 @@ export default function Home() {
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
           crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1QQPXFMKQ"></script>
-        <script>
+        {/* <script>
           window.dataLayer = window.dataLayer || []
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'G-X1QQPXFMKQ');
-        </script>
+        </script> */}
       </Head>
       <Initial />
 

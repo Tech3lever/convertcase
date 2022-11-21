@@ -12,8 +12,8 @@ export default function Home() {
           crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1QQPXFMKQ"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          window.dataLayer = window.dataLayer || []
+          function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'G-X1QQPXFMKQ');

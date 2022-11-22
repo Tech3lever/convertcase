@@ -1,9 +1,7 @@
 import Image from 'next/image';
+import { useRef, useState } from "react";
 
-import { useRef, useState } from "react"
-import style from "./style.module.css"
-
-import ImageLogo from '../../images/logo.gif'
+import style from "./style.module.css";
 
 const Initial = () => {
 
@@ -43,7 +41,7 @@ const Initial = () => {
     };
 
     const toCountLength = () => {
-        const countLength = `${valor}: ${valor.length}`
+        const countLength = `${valor}: ${valor.length}`;
         setvalor(countLength);
     };
 
@@ -53,11 +51,13 @@ const Initial = () => {
 
     return (
         <>
-            <nav className={style.nav}>
-                <a href="/">
-                    ConvertSmallCase
-                </a>
-            </nav>
+            <header >
+                <nav className={style.nav}>
+                    <a href="/">
+                        ConvertSmallCase
+                    </a>
+                </nav>
+            </header>
 
             <main className={style.main}>
                 <div className={style.formgroup}>

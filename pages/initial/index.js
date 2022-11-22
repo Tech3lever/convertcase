@@ -44,9 +44,6 @@ const Initial = () => {
 
     const toCountLength = () => {
         const countLength = `${valor}: ${valor.length}`
-
-        
-
         setvalor(countLength);
     };
 
@@ -57,13 +54,6 @@ const Initial = () => {
     return (
         <>
             <nav className={style.nav}>
-
-                {/* <Image
-                    src={ImageLogo}
-                    alt="logo"
-                    width={200}
-                    height={200}
-                /> */}
                 <a href="/">
                     ConvertSmallCase
                 </a>
@@ -88,10 +78,10 @@ const Initial = () => {
                         Number of Characters
                     </button>
                     <button className="btn btn-outline-primary mx-1 my-1" onClick={toUpperCase} title="to Upper Case">
-                        Capital letters
+                        CAPITAL LETTERS
                     </button>
                     <button className="btn btn-outline-primary mx-1 my-1" onClick={toLowerCase} title="to Lower Case">
-                        Lowercase Letterss
+                        lowercase letterss
                     </button>
                     <button className="btn btn-outline-primary mx-1 my-1" onClick={toReverse} title="to Reverse">
                         Invert text

@@ -4,6 +4,12 @@
     margin-left: 10rem;
 }
 
+.nav a{
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 .main {
     margin: 2rem 10rem;
 }

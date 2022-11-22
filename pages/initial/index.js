@@ -1,5 +1,6 @@
-import Image from 'next/image';
 import { useRef, useState } from "react";
+import Link from 'next/link'
+
 
 import style from "./style.module.css";
 
@@ -51,11 +52,13 @@ const Initial = () => {
 
     return (
         <>
-            <header >
+            <header>
                 <nav className={style.nav}>
-                    <a href="/">
-                        ConvertSmallCase
-                    </a>
+                    <Link href="/">
+                        <a>
+                            ConvertSmallCase
+                        </a>
+                    </Link>
                 </nav>
             </header>
 

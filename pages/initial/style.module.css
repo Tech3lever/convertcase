@@ -2,6 +2,7 @@
     display: flex;
     justify-content: left;
     margin-left: 10rem;
+    flex-direction: column;
 }
 
 .nav a{
@@ -10,22 +11,50 @@
     font-size: 2rem;
 }
 
+.nav h2{
+    font-size: 1rem;
+}
+
 .main {
     margin: 2rem 10rem;
 }
+
+
 
 .formgroup {
     width: 60vw;
 }
 
-.buttons button {
-    margin: 0.33rem 0.2rem;
+.buttons{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+.button{
+    /* background-color: green; */
+}
+/* .buttons button {
+    margin: 0.33rem 0.2rem;
+
+    background-color: red;
+} */
 
 .result {
     padding: 1rem 0;
     margin-bottom: 0.32rem;
     border-bottom: 1px solid rgba(98, 98, 98, 0.664);
+}
+
+.result h3{
+    font-size: 1rem;
+}
+
+.main h4{
+    font-size: 1rem;
+    /* line-height: 1rem; */
+    /* background-color: red; */
 }
 
 .disclaimer {

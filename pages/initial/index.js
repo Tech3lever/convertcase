@@ -56,9 +56,12 @@ const Initial = () => {
                 <nav className={style.nav}>
                     <Link href="/">
                         <a>
-                            ConvertSmallCase
+                            <h1>ConvertSmallCase</h1>
                         </a>
                     </Link>
+                    <h2>
+                        Simply enter your text and choose the case you want to convert it to.
+                    </h2>
                 </nav>
             </header>
 
@@ -68,30 +71,46 @@ const Initial = () => {
                         onChange={e => setvalor(e.target.value)}></textarea>
                 </div>
                 <div className={style.result}>
-                    {valor}
+                    <h3>{valor}</h3>
                 </div>
-                <div className="buttons w-75">
-                    <button onClick={toCopy} className="btn btn-outline-primary mx-1 my-1 mx-1" title="Copy">
-                        copy
-                    </button>
-                    <button onClick={toCut} className="btn btn-outline-primary mx-1 my-1" title="Cut">
-                        cut out
-                    </button>
-                    <button className="btn btn-outline-primary mx-1 my-1 my-1" onClick={toCountLength} title="to Count Length">
-                        Number of Characters
-                    </button>
-                    <button className="btn btn-outline-primary mx-1 my-1" onClick={toUpperCase} title="to Upper Case">
-                        CAPITAL LETTERS
-                    </button>
-                    <button className="btn btn-outline-primary mx-1 my-1" onClick={toLowerCase} title="to Lower Case">
-                        lowercase letterss
-                    </button>
-                    <button className="btn btn-outline-primary mx-1 my-1" onClick={toReverse} title="to Reverse">
-                        Invert text
-                    </button>
-                    <button className="btn btn-outline-primary mx-1 my-1" onClick={toSort} title="to Sort">
-                        Shuffle Words
-                    </button>
+                <div className={style.buttons}>
+                    <h4>
+                        <button onClick={toCopy} className="btn btn-outline-primary" title="Copy" >
+                            Copy
+                        </button>
+                    </h4>
+                    <h4>
+                        <button onClick={toCut} className="btn btn-outline-primary mx-1 my-1" title="Cut">
+                            Cut out
+                        </button>
+                    </h4>
+
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1 my-1" onClick={toCountLength} title="to Count Length">
+                            Number of Characters
+                        </button>
+                    </h4>
+
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toUpperCase} title="to Upper Case">
+                            CAPITAL LETTERS
+                        </button>
+                    </h4>
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toLowerCase} title="to Lower Case">
+                            lowercase letterss
+                        </button>
+                    </h4>
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toReverse} title="to Reverse">
+                            Invert text
+                        </button>
+                    </h4>
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toSort} title="to Sort">
+                            Shuffle Words
+                        </button>
+                    </h4>
                     {/* <button className="btn btn-outline-primary mx-1 my-1" onClick="clickBigWord()">
                         Maior Palavra
                     </button> */}
@@ -101,9 +120,11 @@ const Initial = () => {
                     {/* <button className="btn btn-outline-primary mx-1 my-1" onClick="CriaPDF()">
                         Converter texto para PDF
                     </button> */}
-                    <button className="btn btn-outline-primary mx-1 my-1" onClick={toClear} title="to Clear">
-                        Clear
-                    </button>
+                    <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toClear} title="to Clear">
+                            Clear
+                        </button>
+                    </h4>
                 </div>
             </main>
         </>

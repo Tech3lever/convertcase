@@ -5,13 +5,13 @@
     flex-direction: column;
 }
 
-.nav a{
+.nav a {
     margin-top: 2rem;
     text-decoration: none;
     font-size: 2rem;
 }
 
-.nav h2{
+.nav h2 {
     font-size: 1rem;
 }
 
@@ -25,16 +25,17 @@
     width: 60vw;
 }
 
-.buttons{
+.buttons {
     /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.button{
+.button {
     /* background-color: green; */
 }
+
 /* .buttons button {
     margin: 0.33rem 0.2rem;
 
@@ -47,11 +48,11 @@
     border-bottom: 1px solid rgba(98, 98, 98, 0.664);
 }
 
-.result h3{
+.result h3 {
     font-size: 1rem;
 }
 
-.main h4{
+.main h4 {
     font-size: 1rem;
     /* line-height: 1rem; */
     /* background-color: red; */

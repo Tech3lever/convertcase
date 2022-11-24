@@ -42,8 +42,17 @@ const Initial = () => {
     };
 
     const toCountLength = () => {
-        const countLength = `${valor}: ${valor.length}`;
-        setvalor(countLength);
+
+        if (valor.length == '') {
+            setvalor('')
+        } else {
+            setvalor(valor.length);
+        }
+
+        if(valor == 1 || valor == 2 || valor == 3 || valor == 4 || valor == 5 || valor ==   6 || valor == 7 || valor == 8 || valor == 9){
+            setvalor('')
+        }
+
     };
 
     const toClear = () => {

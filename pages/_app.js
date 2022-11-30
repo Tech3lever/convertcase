@@ -34,6 +34,8 @@ function MyApp({ Component, pageProps }) {
           gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
         `}
     </Script>
+
+    
     <Component {...pageProps} />
   </>
 };

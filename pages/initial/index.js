@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import Link from 'next/link'
+import { useEffect } from 'react';
 
 
 import style from "./style.module.css";
@@ -49,7 +50,7 @@ const Initial = () => {
             setvalor(valor.length);
         }
 
-        if(valor == 1 || valor == 2 || valor == 3 || valor == 4 || valor == 5 || valor ==   6 || valor == 7 || valor == 8 || valor == 9){
+        if (valor == 1 || valor == 2 || valor == 3 || valor == 4 || valor == 5 || valor == 6 || valor == 7 || valor == 8 || valor == 9) {
             setvalor('')
         }
 
@@ -58,6 +59,11 @@ const Initial = () => {
     const toClear = () => {
         setvalor('');
     };
+
+    useEffect(() => {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }, []);
+
 
     return (
         <>
@@ -136,6 +142,17 @@ const Initial = () => {
                     </h4>
                 </div>
             </main>
+
+            <div className={style.anuncio}>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
+                    crossorigin="anonymous"></script>
+                <ins class="adsbygoogle"
+                    style={{ display: "block" }}
+                    data-ad-format="autorelaxed"
+                    data-ad-client="ca-pub-2417167677821960"
+                    data-ad-slot="4798050082"></ins>
+            </div>
+
         </>
     )
 }

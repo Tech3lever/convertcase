@@ -42,7 +42,14 @@ export default function Home() {
           strategy="beforeInteractive"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         />
-
+        
+        <Script
+          id="Adsense-id" async
+          onError={(e) => { console.error("Script failed to load", e); }}
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
+          crossorigin="anonymous"
+        />
 
       </Head>
       <Initial />

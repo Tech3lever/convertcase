@@ -32,20 +32,20 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
 
         {/* adss */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
-          crossorigin="anonymous"></script>
+      
 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
-          crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
 
-        {/* ads */}
-        <Script
-                    id="Adsense-id" async
-                    onError={(e) => { console.error("Script failed to load", e); }}
-                    strategy="afterInteractive"
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
-                    crossorigin="anonymous"
-                />
+
+<Script id="Adsense-id" async
+      onError={(e) => { console.error("Script failed to load", e); }}
+      strategy="afterInteractive"
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
+      crossorigin="anonymous"
+    />
+
+        
 
       </Head>
       <Initial />

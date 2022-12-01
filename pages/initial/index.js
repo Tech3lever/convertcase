@@ -152,13 +152,13 @@ const Initial = () => {
                     Meus anuncios
                 </h3>
                 <ins
-                    class="adsbygoogle"
+                    className="adsbygoogle"
                     style={{ display: "block" }}
-                    data-ad-client="ca-pub-2417167677821960"
-                    data-ad-slot="7455184770"
+                    data-ad-client='ca-pub-2417167677821960'
+                    data-ad-slot='7455184770'
                     data-ad-format="auto"
                     data-full-width-responsive="true"
-                > </ins>
+                ></ins>
 
             </div>
         </>

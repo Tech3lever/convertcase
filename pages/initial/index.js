@@ -63,9 +63,9 @@ const Initial = () => {
 
 
     useEffect(() => {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }, []
-    );
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }, []);
+    
 
 
     return (

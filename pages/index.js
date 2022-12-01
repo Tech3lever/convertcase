@@ -7,6 +7,8 @@ export default function Home() {
       <Head>
         <title>Convert Small Case</title>
         <meta name="description" content="Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features." />
+
+        {/* icons */}
         <link rel="icon" href="/logo.png" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,9 +17,10 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
 
+        {/* adss */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
           crossorigin="anonymous"></script>
-          
+
       </Head>
       <Initial />
     </>

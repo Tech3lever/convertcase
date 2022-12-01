@@ -149,7 +149,7 @@ const Initial = () => {
             <div className={style.anuncio}>
 
                 <h3 className="">
-                    Meus anuncios
+                    Ads
                 </h3>
                 <ins
                     className="adsbygoogle"

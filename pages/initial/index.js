@@ -1,6 +1,8 @@
 import { useRef, useState } from "react";
 import Link from 'next/link'
 
+import Script from 'next/script'
+
 
 import style from "./style.module.css";
 
@@ -136,6 +138,18 @@ const Initial = () => {
                     </h4>
                 </div>
             </main>
+
+            <div className={style.anuncio}>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2417167677821960"
+                data-ad-slot="7455184770"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({ });
+            </script>
+            </div>
         </>
     )
 }

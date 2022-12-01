@@ -49,7 +49,7 @@ const Initial = () => {
             setvalor(valor.length);
         }
 
-        if(valor == 1 || valor == 2 || valor == 3 || valor == 4 || valor == 5 || valor ==   6 || valor == 7 || valor == 8 || valor == 9){
+        if (valor == 1 || valor == 2 || valor == 3 || valor == 4 || valor == 5 || valor == 6 || valor == 7 || valor == 8 || valor == 9) {
             setvalor('')
         }
 
@@ -76,7 +76,7 @@ const Initial = () => {
 
             <main className={style.main}>
                 <div className={style.formgroup}>
-                    <textarea type="text" className="form-control rounded-0" id="textArea" rows="8" value={valor} ref={textAreaRef}
+                    <textarea type="text" aria-label="textArea" required className="textArea form-control rounded-0" id="textArea" rows="8" value={valor} ref={textAreaRef}
                         onChange={e => setvalor(e.target.value)}></textarea>
                 </div>
                 <div className={style.result}>

@@ -32,13 +32,17 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
 
         {/* adss */}
-      
-
-  
 
 
 
-        
+        <Script
+          id="Adsense-id"
+          data-ad-client="ca-pub-2417167677821960"
+          async="true"
+          strategy="beforeInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        />
+
 
       </Head>
       <Initial />

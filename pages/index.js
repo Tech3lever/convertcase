@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Initial from './initial'
 
-import Script from 'next/script'
 
 
 
@@ -35,22 +34,7 @@ export default function Home() {
 
 
 
-        <Script
-          id="Adsense-id"
-          data-ad-client="ca-pub-2417167677821960"
-          async="true"
-          strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        />
-        
-        <Script
-          id="Adsense-id" async
-          onError={(e) => { console.error("Script failed to load", e); }}
-          strategy="afterInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
-          crossorigin="anonymous"
-        />
-
+     
       </Head>
       <Initial />
     </>

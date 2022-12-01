@@ -1,5 +1,5 @@
 {
-  "name": "convertsmallcase",
+  "name": "innercase",
   "version": "0.1.0",
   "private": true,
   "scripts": {

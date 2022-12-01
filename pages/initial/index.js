@@ -141,7 +141,7 @@ const Initial = () => {
 
             <div className={style.anuncio}>
             <ins class="adsbygoogle"
-                style="display:block"
+                style={{display:block}}
                 data-ad-client="ca-pub-2417167677821960"
                 data-ad-slot="7455184770"
                 data-ad-format="auto"

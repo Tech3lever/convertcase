@@ -140,15 +140,21 @@ const Initial = () => {
             </main>
 
             <div className={style.anuncio}>
-            <ins class="adsbygoogle"
-                style={{display:'block'}}
-                data-ad-client="ca-pub-2417167677821960"
-                data-ad-slot="7455184770"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({ });
-            </script>
+
+                <h3 className="">
+                    Meus anuncios
+                </h3>
+                <ins
+                    class="adsbygoogle"
+                    style={{ display: "block" }}
+                    data-ad-client="ca-pub-2417167677821960"
+                    data-ad-slot="7455184770"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"
+                > </ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({ });
+                </script>
             </div>
         </>
     )

@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Link from 'next/link'
 
 import Script from 'next/script'
@@ -60,6 +60,13 @@ const Initial = () => {
     const toClear = () => {
         setvalor('');
     };
+
+
+    useEffect(() => {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }, []
+    );
+
 
     return (
         <>
@@ -152,9 +159,7 @@ const Initial = () => {
                     data-ad-format="auto"
                     data-full-width-responsive="true"
                 > </ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({ });
-                </script>
+
             </div>
         </>
     )

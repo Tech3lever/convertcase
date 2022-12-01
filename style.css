@@ -17,6 +17,7 @@
 
 .main {
     margin: 2rem 10rem;
+    margin-left: 10rem;
 }
 
 
@@ -26,21 +27,11 @@
 }
 
 .buttons {
-    /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.button {
-    /* background-color: green; */
-}
-
-/* .buttons button {
-    margin: 0.33rem 0.2rem;
-
-    background-color: red;
-} */
 
 .result {
     padding: 1rem 0;
@@ -54,13 +45,9 @@
 
 .main h4 {
     font-size: 1rem;
-    /* line-height: 1rem; */
-    /* background-color: red; */
 }
 
-.disclaimer {
-    position: relative;
-}
+
 
 @media (max-width:768px) {
 
@@ -85,4 +72,7 @@
 .anuncio{
     border: 1px solid red;
     background-color: grey;
+    width: 70%;
+    margin-left: 10rem;
+
 }

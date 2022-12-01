@@ -4,7 +4,8 @@ import Initial from './initial'
 export default function Home() {
   return (
     <>
-      <Head>
+      <Head lang="pt-br">
+        
         <title>Convert Small Case</title>
         <meta name="description" content="Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features." />
         <meta charset="utf-8" />
@@ -17,7 +18,7 @@ export default function Home() {
         <meta name="googlebot" content="index,follow" />
         <meta property="og:url" content="https://convertsmallcase.online/" />
         <link rel="canonical" href="https://convertsmallcase.online/" />
-        
+
         {/* icons */}
         <link rel="icon" href="/logo.png" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />

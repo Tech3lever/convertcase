@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ConvertSmallCase - Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features.</title>
+        <title>Convert Small Case</title>
         <meta name="description" content="Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features." />
         <link rel="icon" href="/logo.png" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />

@@ -63,9 +63,9 @@ const Initial = () => {
 
 
     useEffect(() => {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      }, []);
-    
+        // (adsbygoogle = window.adsbygoogle || []).push({});
+    }, []);
+
 
 
     return (
@@ -151,15 +151,14 @@ const Initial = () => {
                 <h3 className="">
                     {/* Ads */}
                 </h3>
-                <ins
-                    className="adsbygoogle"
-                    style={{ display: "block" }}
-                    data-ad-client='ca-pub-2417167677821960'
-                    data-ad-slot='7455184770'
+{/*                 
+                <ins class="adsbygoogle"
+                    style={{display: 'block'}}
+                    data-ad-client="ca-pub-2417167677821960"
+                    data-ad-slot="7455184770"
                     data-ad-format="auto"
-                    data-full-width-responsive="true"
-                ></ins>
-
+                    data-full-width-responsive="true"></ins> */}
+             
             </div>
         </>
     )

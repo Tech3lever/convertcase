@@ -36,6 +36,7 @@ function MyApp({ Component, pageProps }) {
     </Script> */}
 
 
+    {/* google analytics / dados do site */}
     <Script src={`https://www.googletagmanager.com/gtag/js?id=G-JKS9H3R9MB`} strategy='afterInteractive' />
     <Script id="google-analytics" strategy='afterInteractive'>
       {`
@@ -48,7 +49,19 @@ function MyApp({ Component, pageProps }) {
     </Script>
 
 
+    {/* google ads / anuncios */}
+    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
+      crossorigin="anonymous"></Script>
 
+    {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2417167677821960"
+      crossorigin="anonymous">
+      {`
+
+          (adsbygoogle = window.adsbygoogle || []).push({});
+
+        `}
+
+    </Script> */}
 
 
     <Component {...pageProps} />

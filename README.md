@@ -1,12 +1,12 @@
 Functionalities:
-- Copy
-- Cut 
-- Qtd 
-- LowerCase
-- UpperCase
-- Invert
-- Clear
-- Generator PDF
+- Copy ✔️
+- Cut ✔️
+- Qtd ✔️
+- LowerCase ✔️
+- UpperCase ✔️
+- Invert ✔️
+- Clear ✔️
+- Generator PDF ✔️
 - gerar versões para BR e EN
 - 
 - 

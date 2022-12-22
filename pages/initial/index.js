@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 import Script from 'next/script'
 
+import jsPDF from 'jspdf';
+
 
 import style from "./style.module.css";
 
@@ -61,6 +63,16 @@ const Initial = () => {
         setvalor('');
     };
 
+    const toPDF = () => {
+
+        if (valor == '') {
+            valor = ''
+        } else {
+            var doc = new jsPDF()
+            doc.text(valor, 5, 10)
+            doc.save('a4.pdf')
+        }
+    }
 
     useEffect(() => {
         // (adsbygoogle = window.adsbygoogle || []).push({});
@@ -139,6 +151,11 @@ const Initial = () => {
                         Converter texto para PDF
                     </button> */}
                     <h4>
+                        <button className="btn btn-outline-primary mx-1 my-1" onClick={toPDF} >
+                            Generate PDF
+                        </button>
+                    </h4>
+                    <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toClear} title="to Clear">
                             Clear
                         </button>
@@ -151,14 +168,14 @@ const Initial = () => {
                 <h3 className="">
                     {/* Ads */}
                 </h3>
-{/*                 
+                {/*                 
                 <ins class="adsbygoogle"
                     style={{display: 'block'}}
                     data-ad-client="ca-pub-2417167677821960"
                     data-ad-slot="7455184770"
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins> */}
-             
+
             </div>
         </>
     )

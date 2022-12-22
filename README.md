@@ -7,7 +7,7 @@ Functionalities:
 - Invert
 - Clear
 - Generator PDF
-- 
+- gerar versões para BR e EN
 - 
 - 
 - 

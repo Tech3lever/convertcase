@@ -173,6 +173,9 @@ let Initial = () => {
                         <div className="anuncio">
                             <AdComponent />
 <h2>acima</h2>
+
+<script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
+<div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
                         </div>
                     </div>
                 </div>

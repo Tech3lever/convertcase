@@ -82,7 +82,7 @@ let Initial = () => {
 
     return (
         <>
-        <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
+            <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
             <header>
                 <nav className={style.nav}>
                     <Link href="/">
@@ -191,7 +191,7 @@ let Initial = () => {
                 </div>
                 <CustomHTML />
                 <div className={style.spacing}>
-                <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
+                    <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
                 </div>
             </main>
 

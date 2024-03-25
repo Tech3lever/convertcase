@@ -5,6 +5,8 @@ import Script from 'next/script'
 
 import jsPDF from 'jspdf';
 
+import CustomHTML from './CustomHTML';
+
 
 import style from "./style.module.css";
 
@@ -81,6 +83,7 @@ let Initial = () => {
 
     return (
         <>
+        <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
             <header>
                 <nav className={style.nav}>
                     <Link href="/">
@@ -89,7 +92,7 @@ let Initial = () => {
                         </a>
                     </Link>
                     <h2>
-                        Basta inserir seu texto e escolher o caso para o qual deseja convertê-lo.
+                        Basta inserir seu texto e escolher o uso para  qual deseja convertê-lo.
                     </h2>
                 </nav>
             </header>
@@ -163,7 +166,9 @@ let Initial = () => {
                 <div className="anuncios">
                     <h3>
                         Anúncios
+
                     </h3>
+
 
                     <p className={style.span}>
                         Queremos compartilhar com você que o nosso site é mantido graças ao suporte de anúncios. Entendemos que anúncios podem ser uma parte inconveniente da sua experiência de navegação, mas gostaríamos de assegurar que cada anúncio exibido aqui desempenha um papel vital em manter nosso conteúdo gratuito e acessível a todos os nossos usuários.
@@ -177,12 +182,9 @@ let Initial = () => {
                         </div>
                     </div>
                 </div>
-
+                <CustomHTML />
                 <div className={style.spacing}>
-
-                    <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
-
-                    <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
+                <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
                 </div>
             </main>
 

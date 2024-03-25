@@ -15,19 +15,18 @@
     font-size: 1rem;
 }
 
+.test2{
+    margin: 2rem 1rem;
+    width: 70%;
+}
+
 .main {
     margin: 2rem 10rem;
     width: 70%;
 }
 
 /* anuncios */
-.anuncio{
-    background-color: red;
-
-}
-
 .span{
-    background-color: red;
     min-width: 90%;
 }
 
@@ -85,6 +84,11 @@
 
     .main {
         margin: 1rem 2rem;
+        min-width: 90vw;
+    }
+
+    .formgroup {
+        width: 90vw;
     }
 }
 

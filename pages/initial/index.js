@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import Link from 'next/link'
+import AdComponent from './AdComponent';
 
 import Script from 'next/script'
 
@@ -8,44 +9,46 @@ import jsPDF from 'jspdf';
 
 import style from "./style.module.css";
 
-const Initial = () => {
+let Initial = () => {
 
-    const [valor, setvalor] = useState('');
-    const textAreaRef = useRef(null);
+    let [valor, setvalor] = useState('');
+    let textAreaRef = useRef(null);
 
-    const toCopy = (e) => {
+    let toCopy = (e) => {
         textAreaRef.current.select();
         document.execCommand('copy');
         e.target.focus();
         setvalor(valor);
     };
 
-    const toCut = (e) => {
+    let toCut = (e) => {
         textAreaRef.current.select();
         document.execCommand('cut');
         e.target.focus();
         setvalor(valor);
+
+        alert("Recortado!")
     };
 
-    const toUpperCase = (event) => {
+    let toUpperCase = (event) => {
         event.preventDefault();
         setvalor(valor.toUpperCase());
     };
 
-    const toLowerCase = (event) => {
+    let toLowerCase = (event) => {
         event.preventDefault();
         setvalor(valor.toLowerCase());
     };
 
-    const toReverse = () => {
+    let toReverse = () => {
         setvalor(valor.split("").reverse("").join(""));
     };
 
-    const toSort = () => {
+    let toSort = () => {
         setvalor(valor.split("").sort().join(""));
     };
 
-    const toCountLength = () => {
+    let toCountLength = () => {
 
         if (valor.length == '') {
             setvalor('')
@@ -59,11 +62,11 @@ const Initial = () => {
 
     };
 
-    const toClear = () => {
+    let toClear = () => {
         setvalor('');
     };
 
-    const toPDF = () => {
+    let toPDF = () => {
 
         if (valor == '') {
             valor = ''
@@ -74,9 +77,6 @@ const Initial = () => {
         }
     }
 
-    useEffect(() => {
-        // (adsbygoogle = window.adsbygoogle || []).push({});
-    }, []);
 
 
 
@@ -90,7 +90,7 @@ const Initial = () => {
                         </a>
                     </Link>
                     <h2>
-                        Simply enter your text and choose the case you want to convert it to.
+                        Basta inserir seu texto e escolher o caso para o qual deseja convertê-lo.
                     </h2>
                 </nav>
             </header>
@@ -106,39 +106,39 @@ const Initial = () => {
                 <div className={style.buttons}>
                     <h4>
                         <button onClick={toCopy} className="btn btn-outline-primary" title="Copy" >
-                            Copy
+                            Copiar
                         </button>
                     </h4>
                     <h4>
                         <button onClick={toCut} className="btn btn-outline-primary mx-1 my-1" title="Cut">
-                            Cut out
+                            Recortar
                         </button>
                     </h4>
 
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1 my-1" onClick={toCountLength} title="to Count Length">
-                            Number of Characters
+                            Quantidade de Caracteres
                         </button>
                     </h4>
 
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toUpperCase} title="to Upper Case">
-                            CAPITAL LETTERS
+                            LETRAS MAIÚSCULAS
                         </button>
                     </h4>
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toLowerCase} title="to Lower Case">
-                            lowercase letterss
+                            letras minúsculas
                         </button>
                     </h4>
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toReverse} title="to Reverse">
-                            Invert text
+                            Inverter textos
                         </button>
                     </h4>
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toSort} title="to Sort">
-                            Shuffle Words
+                            Embaralhar palavras
                         </button>
                     </h4>
                     {/* <button className="btn btn-outline-primary mx-1 my-1" onClick="clickBigWord()">
@@ -152,30 +152,40 @@ const Initial = () => {
                     </button> */}
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toPDF} >
-                            Generate PDF
+                            Gerar PDF
                         </button>
                     </h4>
                     <h4>
                         <button className="btn btn-outline-primary mx-1 my-1" onClick={toClear} title="to Clear">
-                            Clear
+                            Limpar
                         </button>
                     </h4>
                 </div>
+                <div className="anuncios">
+                    <h1>
+                        Anúncios
+                    </h1>
+                    <span>
+                        Queremos compartilhar com você que o nosso site é mantido graças ao suporte de anúncios. Entendemos que anúncios podem ser uma parte inconveniente da sua experiência de navegação, mas gostaríamos de assegurar que cada anúncio exibido aqui desempenha um papel vital em manter nosso conteúdo gratuito e acessível a todos os nossos usuários.
+                    </span>
+
+                    <div className="card-anuncios">
+                        <div className="anuncio">
+                            <AdComponent />
+<h2>acima</h2>
+                        </div>
+                    </div>
+                </div>
+
+
             </main>
 
-            <div className={style.anuncio}>
 
-                <h3 className="">
-                    {/* Ads */}
-                </h3>
-                {/*                 
-                <ins class="adsbygoogle"
-                    style={{display: 'block'}}
-                    data-ad-client="ca-pub-2417167677821960"
-                    data-ad-slot="7455184770"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins> */}
+            <div>
 
+                <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
+
+                <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
             </div>
         </>
     )

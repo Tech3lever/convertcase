@@ -1,19 +1,16 @@
 import Head from 'next/head'
 import Initial from './initial'
 
-
-
-
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Convert Small Case</title>
-        <meta name="description" content="Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features." />
+        <title>Convert Small Case | Conversor de Textos </title>
+        <meta name="description" content="Ferramenta de conversão de letras e palavras... A ferramenta de texto pega todas as letras maiúsculas inseridas na área de texto e as converte em letras minúsculas, conta a quantidade de caracteres inseridos na área de texto, entre outros recursos de conversão." />
         <meta charset="utf-8" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Convert Small Case" />
-        <meta property="og:description" content="Letter and word conversion tool... The text tool takes all uppercase letters entered in the text area and converts them to lowercase letters, counts the number of characters entered in the text area, among other conversion features." />
+        <meta property="og:title" content="Convert Small Case | Conversor de Textos" />
+        <meta property="og:description" content="Ferramenta de conversão de letras e palavras... A ferramenta de texto pega todas as letras maiúsculas inseridas na área de texto e as converte em letras minúsculas, conta a quantidade de caracteres inseridos na área de texto, entre outros recursos de conversão." />
         <meta property="og:locale" content="pt_BR" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="robots" content="index,follow" />
@@ -30,10 +27,6 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
 
-
-
-
-     
       </Head>
       <Initial />
     </>

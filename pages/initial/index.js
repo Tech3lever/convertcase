@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 import jsPDF from 'jspdf';
 
-import CustomHTML from './CustomHTML';
+// import CustomHTML from './CustomHTML';
 
-// import Script from 'next/script'
+import Script from 'next/script'
 
 import style from "./style.module.css";
 

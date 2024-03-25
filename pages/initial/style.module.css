@@ -26,7 +26,14 @@
 
 }
 
+.span{
+    background-color: red;
+    min-width: 90%;
+}
 
+.spacing{
+    margin-bottom: 3rem;
+}
 
 .formgroup {
     width: 60vw;

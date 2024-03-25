@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import Link from 'next/link'
-import AdComponent from './AdComponent';
 
 import Script from 'next/script'
 
@@ -162,34 +161,33 @@ let Initial = () => {
                     </h4>
                 </div>
                 <div className="anuncios">
-                    <h1>
+                    <h3>
                         Anúncios
-                    </h1>
-                    <span>
+                    </h3>
+
+                    <p className={style.span}>
                         Queremos compartilhar com você que o nosso site é mantido graças ao suporte de anúncios. Entendemos que anúncios podem ser uma parte inconveniente da sua experiência de navegação, mas gostaríamos de assegurar que cada anúncio exibido aqui desempenha um papel vital em manter nosso conteúdo gratuito e acessível a todos os nossos usuários.
-                    </span>
+                    </p>
 
                     <div className="card-anuncios">
-                        <div className="anuncio">
-                            <AdComponent />
-<h2>acima</h2>
 
-<script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
-<div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
+                        <div className="anuncio">
+                            <script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
+                            <div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
                         </div>
                     </div>
                 </div>
 
+                <div className={style.spacing}>
 
+                    <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
+
+                    <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
+                </div>
             </main>
 
 
-            <div>
 
-                <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
-
-                <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
-            </div>
         </>
     )
 }

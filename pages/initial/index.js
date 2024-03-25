@@ -6,7 +6,7 @@ import jsPDF from 'jspdf';
 
 import CustomHTML from './CustomHTML';
 
-import Script from 'next/script'
+// import Script from 'next/script'
 
 import style from "./style.module.css";
 
@@ -190,7 +190,7 @@ let Initial = () => {
                         </div>
                     </div>
                 </div>
-                <CustomHTML />
+                {/* <CustomHTML /> */}
                 <div className={style.spacing}>
                     <Script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></Script>
                 </div>

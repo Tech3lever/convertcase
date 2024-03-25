@@ -6,6 +6,7 @@ import jsPDF from 'jspdf';
 
 import CustomHTML from './CustomHTML';
 
+import Script from 'next/script'
 
 import style from "./style.module.css";
 
@@ -82,7 +83,7 @@ let Initial = () => {
 
     return (
         <>
-            <script type='text/javascript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></script>
+            <Script type='text/javaScript' src='//pl22890023.profitablegatecpm.com/7e/54/c4/7e54c439c2b47dd6685547a766aac81f.js'></Script>
             <header>
                 <nav className={style.nav}>
                     <Link href="/">
@@ -174,24 +175,24 @@ let Initial = () => {
 
                     <div className="card-anuncios">
                         <div className="anuncio">
-                            <script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
+                            <Script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></Script>
                             <div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
                         </div>
 
                         <div className="anuncio">
-                            <script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
+                            <Script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></Script>
                             <div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
                         </div>
 
                         <div className="anuncio">
-                            <script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></script>
+                            <Script async="async" data-cfasync="false" src="//pl22890200.profitablegatecpm.com/6614843b6f503fa80f14882c4f7604fc/invoke.js"></Script>
                             <div id="container-6614843b6f503fa80f14882c4f7604fc"></div>
                         </div>
                     </div>
                 </div>
                 <CustomHTML />
                 <div className={style.spacing}>
-                    <script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></script>
+                    <Script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></Script>
                 </div>
             </main>
 

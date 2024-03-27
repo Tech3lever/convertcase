@@ -163,7 +163,7 @@ let Initial = () => {
                         </button>
                     </h4>
                 </div>
-                <div className="anuncios">
+                {/* <div className="anuncios">
                     <h3>
                         Anúncios
                     </h3>
@@ -190,10 +190,7 @@ let Initial = () => {
                         </div>
                     </div>
                 </div>
-                {/* <CustomHTML /> */}
-                <div className={style.spacing}>
-                    <Script type='text/javascript' src='//pl22890007.profitablegatecpm.com/ca/10/22/ca102243340209a99ee3a27402245adf.js'></Script>
-                </div>
+            */}
             </main>
 
 
